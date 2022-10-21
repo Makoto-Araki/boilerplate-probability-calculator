@@ -23,4 +23,6 @@ class Hat:
         return return_list
 
 def experiment(hat, expected_balls, num_balls_drawn, num_experiments):
-    //
+    for i in range(len(num_experiments)):
+        experiment_hat = hat
+        drawn_list = experiment_hat.draw(num_balls_drawn)

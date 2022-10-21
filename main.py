@@ -11,6 +11,9 @@ hat = prob_calculator.Hat(blue=2, green=2)
 hat.draw(3)
 '''
 
+''' experiment
+'''
+
 ''' Original Code
 prob_calculator.random.seed(95)
 hat = prob_calculator.Hat(blue=4, red=2, green=6)
