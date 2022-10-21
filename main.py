@@ -11,8 +11,15 @@ hat = prob_calculator.Hat(blue=2, green=2)
 hat.draw(3)
 '''
 
-''' experiment
-'''
+#''' experiment
+hat = prob_calculator.Hat(blue=4, red=2, green=6)
+probability = prob_calculator.experiment(
+    hat=hat,
+    expected_balls={"blue": 2, "red": 1},
+    num_balls_drawn=4,
+    num_experiments=10)
+print("Probability:", probability)
+#'''
 
 ''' Original Code
 prob_calculator.random.seed(95)
